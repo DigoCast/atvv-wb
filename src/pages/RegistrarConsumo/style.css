@@ -1,0 +1,80 @@
+.container-consumo {
+  padding: 50px 5% 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formconsumo {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 30px 40px;
+}
+
+.select-cliente {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  background-color: var(--gray-light);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.select-produto-servico {
+  width: 50%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  background-color: var(--gray-light);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.quantidade-consumo {
+  width: 78%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  background-color: var(--gray-light);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.botao-consumir {
+    height: fit-content;
+  background-color: var(--light-brown);
+  border: 0;
+  color: var(--white);
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.botao-consumir:hover {
+  background-color: var(--secondary);
+}
+.num-button-consumo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  gap: 10px;
+}
+
+.container-prodserv-consumo {
+  margin-top: 20px;
+}
+
+.selecao-prodserv-consumo {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
