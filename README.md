@@ -5,6 +5,9 @@ Aplicação web finalizada, feita na materia de POO, consistem em um aplicação
 ---
 
 ### Para rodar (após o clone):
+
+OBS: Versão do node: v22.17.0
+
 Crie um banco de dados no mysql e na raiz do projeto o arquivo .env e coloque seus dados assim:
  - DATABASE_URL="mysql://user:senha@localhost:3306/nomedobanco"
 ```bash
